@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@siemens/books": ["libs/books/src/index.ts"]
+      "@siemens/books": ["libs/books/src/index.ts"],
+      "@siemens/cart": ["libs/cart/src/index.ts"],
+      "@siemens/cart-state": ["libs/cart-state/src/index.ts"],
+      "@siemens/feed": ["libs/feed/src/index.ts"],
+      "@siemens/ui": ["libs/ui-components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

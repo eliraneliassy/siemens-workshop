@@ -9,7 +9,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "siemensworkshop",
+            "prefix": "s",
             "style": "camelCase"
           }
         ],
@@ -17,7 +17,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "siemensworkshop",
+            "prefix": "s",
             "style": "kebab-case"
           }
         ]

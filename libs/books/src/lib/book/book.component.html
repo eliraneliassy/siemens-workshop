@@ -1,0 +1,13 @@
+<ng-container *ngIf="book">
+  <div class="title">{{book.title}}</div>
+
+  <div class="description">{{book.description}}</div>
+
+  <img [src]="book.imageUrl">
+
+  <div class="price">{{book.price}}</div>
+
+  <s-button text="Add To Cart" (clicked)="handleAddToCart()"></s-button>
+
+
+</ng-container>

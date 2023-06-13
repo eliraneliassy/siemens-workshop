@@ -1,0 +1,5 @@
+<ng-container *ngFor="let book of books$ | async">
+
+  <s-book [book]="book" (addToCart)="addToCart($event)"></s-book>
+
+</ng-container>

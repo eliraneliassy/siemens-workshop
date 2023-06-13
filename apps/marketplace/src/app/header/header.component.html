@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>
+    My Awesome Marketplace
+  </h1>
+
+  <div class="links">
+    <ul>
+      <a routerLink="feed"><li>Feed</li></a>
+      <a routerLink="cart"><li>Cart</li></a>
+    </ul>
+  </div>
+
+  <div class="cart">
+    Number of items in cart: {{numberOfItemsInCart$ | async}}
+  </div>
+</div>
+
